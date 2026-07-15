@@ -1,6 +1,6 @@
 public class bubbleSort {
     public static void main(String[] args){
-        int[] order = {32,12,26,100,7,9};
+        int[] order = {15, 5, 10};
         order = bub(order);
         for (int i=0;i<order.length;i++){
             System.out.print(order[i] + ",");
